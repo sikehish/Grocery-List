@@ -19,7 +19,7 @@ function Search({update, inp, isEdit, index, editItem, edit}){
     <form onSubmit={handleSubmit} className='grocery-form'>
       <h3>Grocery List</h3>
       <div className='form-control'>
-      <input type="text" className='grocery' placeholder='e.g. eggs' ref={inp} />
+      <input type="text" className='grocery' placeholder='e.g. onions:P' ref={inp} />
       <button type="submit" className='submit-btn'>{isEdit? 'Edit' : 'Submit' }</button>
       </div>
     </form>
